@@ -3,5 +3,9 @@
 /.idea/workspace.xml
 /vcs.xml
 /.name
-.idea/*
-
+/compiler.xml
+/encodings.xml
+jarRepositories.xml
+/misc.xml
+/uiDesigner.xml
+/workspace.xml
