@@ -37,7 +37,7 @@ public class entrypoint {
 
     @Parameters({"browser","URL"})
     @BeforeMethod
-    public void setup(@Optional("Chrome") String browser, @Optional("https://www.amazon.com") String URL) throws IOException {
+    public void setup(@Optional("Chrome") String browser, @Optional("https://www.amazon.com/") String URL) throws IOException {
         GetDriver(browser);
         driver.get(URL);
         driver.manage().window().fullscreen();
