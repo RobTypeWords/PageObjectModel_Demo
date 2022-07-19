@@ -22,7 +22,14 @@
 
 
 
-    <profiles></profiles> <!--TBA. Dont know how to use this yet -->
+    <profiles>
+        <profile>
+            <id>Regression</id>
+
+            <!-- Here you will pass the build and plugins along with the suitexml-->
+        </profile>
+
+    </profiles> <!--TBA. Dont know how to use this yet -->
 
 
 
@@ -44,7 +51,7 @@
                     <version>3.0.0-M5</version>
                     <configuration>
                         <suiteXmlFiles>
-                         <!--  <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles> -->
+                  <!-- Wont work -->
                         </suiteXmlFiles> <!-- This causes errors -->
                     </configuration>
                 </plugin>

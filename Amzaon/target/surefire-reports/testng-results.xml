@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="3706" started-at="2022-07-18T14:36:41Z" finished-at="2022-07-18T14:36:45Z">
+  <suite name="Surefire suite" duration-ms="6701" started-at="2022-07-18T16:41:18Z" finished-at="2022-07-18T16:41:25Z">
     <groups>
       <group name="All">
-        <method signature="TestAmazonHomepage.AmazonLandPage()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@1810399e]" name="AmazonLandPage" class="AmazonTestPackage.TestAmazonHomepage"/>
+        <method signature="TestAmazonHomepage.AmazonLandPage()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@5d5eef3d]" name="AmazonLandPage" class="AmazonTestPackage.TestAmazonHomepage"/>
       </group> <!-- All -->
       <group name="Regression">
-        <method signature="TestAmazonHomepage.AmazonLandPage()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@1810399e]" name="AmazonLandPage" class="AmazonTestPackage.TestAmazonHomepage"/>
+        <method signature="TestAmazonHomepage.AmazonLandPage()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@5d5eef3d]" name="AmazonLandPage" class="AmazonTestPackage.TestAmazonHomepage"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="Surefire test" duration-ms="3706" started-at="2022-07-18T14:36:41Z" finished-at="2022-07-18T14:36:45Z">
+    <test name="Surefire test" duration-ms="6701" started-at="2022-07-18T16:41:18Z" finished-at="2022-07-18T16:41:25Z">
       <class name="AmazonTestPackage.TestAmazonHomepage">
-        <test-method status="PASS" signature="extentSetup()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@1810399e]" test-instance-name="" name="extentSetup" is-config="true" duration-ms="201" started-at="2022-07-18T10:36:41Z" finished-at="2022-07-18T10:36:41Z">
+        <test-method status="PASS" signature="extentSetup()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@5d5eef3d]" test-instance-name="" name="extentSetup" is-config="true" duration-ms="263" started-at="2022-07-18T12:41:18Z" finished-at="2022-07-18T12:41:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@1810399e]" test-instance-name="" name="setup" is-config="true" duration-ms="3523" started-at="2022-07-18T10:36:41Z" finished-at="2022-07-18T10:36:45Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@5d5eef3d]" test-instance-name="" name="setup" is-config="true" duration-ms="6072" started-at="2022-07-18T12:41:18Z" finished-at="2022-07-18T12:41:24Z">
           <params>
             <param index="0">
               <value>
@@ -33,15 +33,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AmazonLandPage()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@1810399e]" test-instance-name="" name="AmazonLandPage" duration-ms="4" started-at="2022-07-18T10:36:45Z" finished-at="2022-07-18T10:36:45Z">
+        <test-method status="PASS" signature="AmazonLandPage()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@5d5eef3d]" test-instance-name="" name="AmazonLandPage" duration-ms="4" started-at="2022-07-18T12:41:24Z" finished-at="2022-07-18T12:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AmazonLandPage -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@1810399e]" test-instance-name="" name="cleanup" is-config="true" duration-ms="171" started-at="2022-07-18T10:36:45Z" finished-at="2022-07-18T10:36:45Z">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@5d5eef3d]" test-instance-name="" name="cleanup" is-config="true" duration-ms="618" started-at="2022-07-18T12:41:24Z" finished-at="2022-07-18T12:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method status="PASS" signature="AfterMethodExtent()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@1810399e]" test-instance-name="" name="AfterMethodExtent" is-config="true" duration-ms="351" started-at="2022-07-18T10:36:45Z" finished-at="2022-07-18T10:36:45Z">
+        <test-method status="PASS" signature="AfterMethodExtent()[pri:0, instance:AmazonTestPackage.TestAmazonHomepage@5d5eef3d]" test-instance-name="" name="AfterMethodExtent" is-config="true" duration-ms="825" started-at="2022-07-18T12:41:25Z" finished-at="2022-07-18T12:41:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodExtent -->
