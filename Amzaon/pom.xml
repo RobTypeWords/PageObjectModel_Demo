@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Amzaon</artifactId>
+    <packaging>jar</packaging> <!--NEW HERE!!!-->
 
     <build>
         <plugins>
@@ -27,9 +28,13 @@
                 <!-- <version>3.0.0-M5</version> -->
                 <configuration>
                     <suiteXmlFiles>
-                       <!-- <suiteXmlFile></suiteXmlFile> -->
-                    </suiteXmlFiles> <!-- This doesnt do anything? -->
+                      <!-- <suiteXmlFile>src/test/resource/AmazonRunner.xml</suiteXmlFile>-->
+                    </suiteXmlFiles> <!--This works,but doesnt work-->
+
+
+
                 </configuration>
+
             </plugin>
         </plugins>
     </build>
@@ -40,7 +45,6 @@
             <artifactId>Generic</artifactId>
            <version>1.0-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>

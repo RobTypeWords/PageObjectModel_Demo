@@ -1,11 +1,7 @@
-package AmazonTestPackage;
+package test;
 
 import Common.entrypoint;
-import Home.AmazonHomePage;
-import Reports.ExtentManager;
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 @Test(groups = {"All"}) // This is to run them ALL!!!!!! This will run on this Suite level

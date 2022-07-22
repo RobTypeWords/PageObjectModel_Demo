@@ -1,15 +1,16 @@
-package GoogleTestPackage;
+package test;
 
+import Common.entrypoint;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestGoogleHomepage {
+public class TestGoogleHomepage extends entrypoint {
 
     @Test
     public void GoogleWelcome(){
 
         System.out.println("Message from Google");
-        Assert.assertEquals(false,false); // This works
+        Assert.assertEquals(true,true); // This works
 
     }
 }

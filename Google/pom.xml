@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Google</artifactId>
+    <packaging>jar</packaging> <!--new-->
 
     <build>
         <plugins>
@@ -27,19 +28,14 @@
                 <!-- <version>3.0.0-M5</version> -->
                 <configuration>
                     <suiteXmlFiles>
-                        <!-- <suiteXmlFile></suiteXmlFile> -->
-                    </suiteXmlFiles> <!-- This doesnt do anything? -->
+                      <!--  <suiteXmlfile>src/test/Resources/GoogleRunner.xml</suiteXmlfile>-->
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <dependencies>
-        <dependency> <!--NEW here -->
-            <groupId>org.example</groupId>
-           <artifactId>Generic</artifactId>
-           <version>1.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -65,12 +61,16 @@
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
         </dependency>
-        <dependency>
+
+
+        <dependency> <!--Some issue here-->
             <groupId>org.example</groupId>
             <artifactId>Generic</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+
         </dependency>
+
+
 
     </dependencies>
 
